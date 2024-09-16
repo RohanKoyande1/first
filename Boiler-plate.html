@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            h6 {
+                color: black;
+            }
+        </style>
+
+        <link rel="stylesheet" href="harry_styles.css">  
+
+    </head>
+
+    <body>
+        <header>   <p> <u> <i> <b> Hello <br> world </b> </i> </u> </p>
+                    <!--underline, bold, italic -->
+
+        </header>
+
+       <main> <h1 style="color: red"> Ironman </h1> 
+         <!--inline css-->
+              <h2> Captain America </h2>
+              <h3> Hulk </h3>
+              <h4> Thor </h4>
+              <h5> Black Widow </h5>
+              <h6> Hawkeye </h6>
+
+             <ul>
+                   <li> <h3> Crossovers </h3></li>
+                   <li> Avengers 2012 </li>
+                   <li> Avengers: Infinity War </li>
+                   <li> Avengers: Endgame </li>
+             </ul>
+
+             <ol reversed type="A">
+                 <li> Homecoming </li>
+                 <li> Far From Home <sup>1</sup> </li>
+                 <li> No Way Home <sub>2</sub> </li>
+             </ol>
+       </main>
+           <div>
+                <nav> 
+
+                  <a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Films"> MCU Films </a>
+
+                </nav>
+ 
+               
+
+            </div>  <!--(block) container division-->
+
+            <span> 
+                
+                    <img src="C:\Users\Rohan Koyande\Documents\9385\IMG_8149.JPG" alt="Porsche 911" height="240px" width="144px">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d9/Elizabeth_Olsen_as_Wanda_Maximoff.jpg">
+                
+
+            
+            </span> <!--Inline container separator-->
+
+    <footer> <h3> &quot; Thank You &quot; </h3> </footer>
+
+        <hr>
+        <article> Semantic tag is the markup which relates to the meaning of the tag. </article>
+        <section> Same as span but Semantic </section>
+        <aside> same as anchor tag but Semantic <br>
+                  &hearts; &lt; &nbsp; &gt; &Diamond; &amp;  <!--Entities-->
+        </aside>
+
+        <table border="2"> 
+            <caption> Supercars </caption>
+            <thead> 
+                <tr> 
+                    <th colspan="1" rowspan="2"> Car </th>
+                    <th colspan="2" rowspan="1"> Price </th>
+                </tr>
+                <tr> 
+                    <th> USD </th>
+                    <th> INR </th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr> 
+                    <td> Ferrari SF90 </td>
+                    <td> $1,000,000 </td>
+                    <td> 8 Cr </td>
+                </tr>
+    
+                <tr> 
+                    <td> Lamborghini Aventador </td>
+                    <td> $2,000,000 </td>
+                    <td> 9 Cr </td>
+                </tr>
+    
+                <tr> 
+                    <td> Porsche Taycan Turbo S </td>
+                    <td> $3,000,000 </td>
+                    <td> 4 Cr </td>
+                </tr>
+    
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td> Mercedes Mayback </td>
+                    <td> $200,000 </td>
+                    <td> 2 Cr </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br>
+
+        <form>
+            <label for="name"> Name: </label>
+            <input type="text" placeholder="Enter name" id="name" name="name">
+            <!--See the url, due to name tag, name appears in it-->
+            
+            <br>
+        
+            <label for="password"> Password:  </label>
+            <input type="password" placeholder="enter password" id="password" name="">
+
+            <br>
+            
+            <label for="Birth Date"> Birth Date: </label>
+            <input type="date" id="Birth Date" name="">
+
+            <br>
+            
+            <label for="Mobile"> Mobile:  </label>
+            <input type="tel" placeholder="1234567890" id="Mobile" name="">
+           
+            <br>
+
+            <label for="time"> Time: </label>
+            <input type="time" id="time">
+
+            <br>
+
+            <label for="Pincode"> Pin Code: </label>
+            <input type="number" placeholder="400055" id="Pincode">
+
+            <br> 
+
+            <label for="checkbox"> Capcha  </label>
+            <input type="checkbox" id="checkbox">
+
+            <br>
+
+            <button type="submit"> Submit </button>
+            <br>
+
+            <button type="button"> Simple Button </Button>
+            <br>
+
+            <button type="reset"> Reset </button>
+            <br>
+
+            <input type="button" value="Lick ME">
+            <br>
+
+            <input type="radio" name="fashion" id="Zara"/>
+            <label for="Zara"> Apple </label>
+            <br>
+
+            <input type="radio" name="fashion" id="H&M"/>
+            <label for="H&M"> H&M </label>
+            <br>
+
+            <input type="radio" name="fashion" id="Westside"/>
+            <label for="Westside"> Westside </label>
+            <!--value atribute shows value in the url-->
+            <!--due to same name, multiple checkboxes can't be selected-->
+            <br>
+
+            Choose Sunglasses
+            <select name="Sunglasses" id="Sunglasses">
+                <option value="John Jacob"> John Jacob </option>
+                <option value="Prada"> Prada </option>
+                <option value="LV"> LV </option>
+
+            </select>
+            <br>
+
+            <label for="Volume"> Volume </label>
+            <input type="range" id="Volume" name="Volume" min="0" max="100" step="5" value="0">
+            <br>
+
+            <label for="feedback"> Provide your valuabke feedback </label>
+            <textarea id="feedback" placeholder="feedback" rows="2" cols="2"> </textarea>
+
+        </form>
+
+        <form action="https://www.youtube.com/results"> 
+            <input type="text" placeholder="search in youtube" name="search_query">
+            <button> Search in YT </button>
+            <!--youtube searching with name tag-->
+  
+        </form>
+
+         
+
+
+    </body>
+</html>
